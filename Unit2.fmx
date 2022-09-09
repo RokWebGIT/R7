@@ -1,0 +1,102 @@
+object AuthFrame: TAuthFrame
+  Size.Width = 597.000000000000000000
+  Size.Height = 439.000000000000000000
+  Size.PlatformDefault = False
+  object GridPanelLayout1: TGridPanelLayout
+    Align = Center
+    Size.Width = 384.000000000000000000
+    Size.Height = 235.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    ColumnCollection = <
+      item
+        Value = 50.000000000000000000
+      end
+      item
+        Value = 50.000000000000000000
+      end>
+    ControlCollection = <
+      item
+        Column = 0
+        Control = Text1
+        Row = 0
+      end
+      item
+        Column = 1
+        Control = LoginEdit
+        Row = 0
+      end
+      item
+        Column = 0
+        Control = Text2
+        Row = 1
+      end
+      item
+        Column = 1
+        Control = PasswordEdit
+        Row = 1
+      end
+      item
+        Column = 0
+        ColumnSpan = 2
+        Control = AuthButton
+        Row = 2
+      end>
+    RowCollection = <
+      item
+        Value = 33.333333955300980000
+      end
+      item
+        Value = 33.333330252324560000
+      end
+      item
+        Value = 33.333335792374460000
+      end>
+    object Text1: TText
+      Align = VertCenter
+      Size.Width = 192.000000000000000000
+      Size.Height = 78.333335876464840000
+      Size.PlatformDefault = False
+      Text = #1051#1086#1075#1080#1085
+    end
+    object LoginEdit: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = VertCenter
+      TabOrder = 0
+      Position.X = 192.000000000000000000
+      Position.Y = 24.000000000000000000
+      Size.Width = 192.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Text2: TText
+      Align = VertCenter
+      Position.Y = 78.333335876464840000
+      Size.Width = 192.000000000000000000
+      Size.Height = 78.333320617675780000
+      Size.PlatformDefault = False
+      Text = #1055#1072#1088#1086#1083#1100
+    end
+    object PasswordEdit: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = VertCenter
+      TabOrder = 1
+      Password = True
+      Position.X = 192.000000000000000000
+      Position.Y = 102.333335876464800000
+      Size.Width = 192.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object AuthButton: TButton
+      Align = VertCenter
+      Default = True
+      Position.Y = 162.666656494140600000
+      Size.Width = 384.000000000000000000
+      Size.Height = 65.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = #1042#1086#1081#1090#1080
+    end
+  end
+end

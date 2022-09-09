@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.431,=D:\Apetta\R7\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.774,=C:\Users\RokWe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.382,=C:\Users\RokWe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.007,C:\Users\RokWe\Documents\Embarcadero\Studio\Projects\Unit2.fmx=D:\Apetta\R7\Unit2.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.141,=D:\Apetta\R7\Unit5.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.676,C:\Users\RokWe\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\Apetta\R7\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.472,=C:\Users\RokWe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.103,C:\Users\RokWe\Documents\Embarcadero\Studio\Projects\Unit1.fmx=D:\Apetta\R7\Unit1.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.728,=C:\Users\RokWe\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.007,C:\Users\RokWe\Documents\Embarcadero\Studio\Projects\Unit2.pas=D:\Apetta\R7\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.103,C:\Users\RokWe\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\Apetta\R7\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.149,=C:\Users\RokWe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.420,=C:\Users\RokWe\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<PRokWeb iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

@@ -1,0 +1,50 @@
+object TaskFrame: TTaskFrame
+  Align = Client
+  Size.Width = 412.000000000000000000
+  Size.Height = 503.000000000000000000
+  Size.PlatformDefault = False
+  object Button1: TButton
+    Align = Bottom
+    Position.Y = 462.000000000000000000
+    Size.Width = 412.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'Button1'
+  end
+  object GridPanelLayout1: TGridPanelLayout
+    Align = Client
+    Size.Width = 412.000000000000000000
+    Size.Height = 462.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    ColumnCollection = <
+      item
+        Value = 50.000000000000000000
+      end
+      item
+        Value = 50.000000000000000000
+      end>
+    ControlCollection = <
+      item
+        Column = 0
+        ColumnSpan = 2
+        Control = Text1
+        Row = 0
+        RowSpan = 2
+      end>
+    RowCollection = <
+      item
+        Value = 50.000000000000000000
+      end
+      item
+        Value = 50.000000000000000000
+      end>
+    object Text1: TText
+      Align = Client
+      Size.Width = 412.000000000000000000
+      Size.Height = 462.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+end

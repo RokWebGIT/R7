@@ -1,0 +1,141 @@
+object SelfUserFrame: TSelfUserFrame
+  Size.Width = 1019.000000000000000000
+  Size.Height = 609.000000000000000000
+  Size.PlatformDefault = False
+  object Button1: TButton
+    Align = Bottom
+    Position.Y = 568.000000000000000000
+    Size.Width = 1019.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = #1053#1072#1079#1072#1076
+    OnClick = Button1Click
+  end
+  object Panel1: TPanel
+    Align = Client
+    Size.Width = 1019.000000000000000000
+    Size.Height = 568.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object GridPanelLayout1: TGridPanelLayout
+      Align = Top
+      Size.Width = 1019.000000000000000000
+      Size.Height = 121.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      ColumnCollection = <
+        item
+          Value = 50.000000000000000000
+        end
+        item
+          Value = 50.000000000000000000
+        end>
+      ControlCollection = <
+        item
+          Column = 0
+          Control = Image1
+          Row = 0
+          RowSpan = 2
+        end
+        item
+          Column = 1
+          Control = Text1
+          Row = 0
+        end
+        item
+          Column = 1
+          Control = Text2
+          Row = 1
+        end>
+      RowCollection = <
+        item
+          Value = 49.597484333921110000
+        end
+        item
+          Value = 50.402515666078890000
+        end>
+      object Image1: TImage
+        MultiResBitmap = <
+          item
+          end>
+        Align = Client
+        Size.Width = 509.500000000000000000
+        Size.Height = 121.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Text1: TText
+        Align = Client
+        Size.Width = 509.500000000000000000
+        Size.Height = 60.012954711914060000
+        Size.PlatformDefault = False
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      object Text2: TText
+        Align = Client
+        Size.Width = 509.500000000000000000
+        Size.Height = 60.987045288085940000
+        Size.PlatformDefault = False
+      end
+    end
+    object ListView1: TListView
+      ItemAppearanceClassName = 'TDynamicAppearance'
+      ItemEditAppearanceClassName = 'TDynamicAppearance'
+      HeaderAppearanceClassName = 'TListHeaderObjects'
+      FooterAppearanceClassName = 'TListHeaderObjects'
+      Align = Client
+      Size.Width = 1019.000000000000000000
+      Size.Height = 447.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      ItemAppearance.ItemHeight = 80
+      ItemAppearanceObjects.ItemObjects.ObjectsCollection = <
+        item
+          AppearanceObjectName = 'Text1'
+          AppearanceClassName = 'TTextObjectAppearance'
+          Appearance.Font.Size = 11.000000000000000000
+          Appearance.Font.StyleExt = {00070000000000000004000000}
+          Appearance.TextAlign = Leading
+          Appearance.Trimming = Character
+          Appearance.Width = 945.000000000000000000
+          Appearance.Height = 25.000000000000000000
+          Appearance.PlaceOffset.X = 54.000000000000000000
+        end
+        item
+          AppearanceObjectName = 'Text2'
+          AppearanceClassName = 'TTextObjectAppearance'
+          Appearance.Font.Size = 10.000000000000000000
+          Appearance.Font.StyleExt = {00040000000200000004000000}
+          Appearance.TextAlign = Leading
+          Appearance.TextVertAlign = Leading
+          Appearance.Width = 945.000000000000000000
+          Appearance.Height = 17.000000000000000000
+          Appearance.PlaceOffset.X = 54.000000000000000000
+          Appearance.PlaceOffset.Y = 25.000000000000000000
+        end
+        item
+          AppearanceObjectName = 'Text3'
+          AppearanceClassName = 'TTextObjectAppearance'
+          Appearance.Font.Size = 11.000000000000000000
+          Appearance.TextAlign = Leading
+          Appearance.TextVertAlign = Leading
+          Appearance.WordWrap = True
+          Appearance.Trimming = Word
+          Appearance.Width = 1006.000000000000000000
+          Appearance.Height = 41.000000000000000000
+          Appearance.PlaceOffset.Y = 40.000000000000000000
+        end
+        item
+          AppearanceObjectName = 'Image1'
+          AppearanceClassName = 'TImageObjectAppearance'
+          Appearance.Width = 55.000000000000000000
+          Appearance.Height = 41.000000000000000000
+        end>
+      ItemAppearanceObjects.ItemEditObjects.ObjectsCollection = <
+        item
+          AppearanceObjectName = 'Text1'
+          AppearanceClassName = 'TTextObjectAppearance'
+        end>
+    end
+  end
+end

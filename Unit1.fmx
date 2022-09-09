@@ -1,0 +1,308 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 509
+  ClientWidth = 607
+  Visible = True
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 3
+  inline AuthFrame1: TAuthFrame
+    Align = Client
+    Size.Width = 607.000000000000000000
+    Size.Height = 509.000000000000000000
+    Size.PlatformDefault = False
+    inherited GridPanelLayout1: TGridPanelLayout
+      ControlCollection = <
+        item
+          Column = 0
+          Control = AuthFrame1.Text1
+          Row = 0
+        end
+        item
+          Column = 1
+          Control = AuthFrame1.LoginEdit
+          Row = 0
+        end
+        item
+          Column = 0
+          Control = AuthFrame1.Text2
+          Row = 1
+        end
+        item
+          Column = 1
+          Control = AuthFrame1.PasswordEdit
+          Row = 1
+        end
+        item
+          Column = 0
+          ColumnSpan = 2
+          Control = AuthFrame1.AuthButton
+          Row = 2
+        end>
+      inherited LoginEdit: TEdit
+        Position.Y = 23.000000000000000000
+        Size.Height = 32.000000000000000000
+      end
+      inherited PasswordEdit: TEdit
+        Position.Y = 101.333335876464800000
+        Size.Height = 32.000000000000000000
+      end
+      inherited AuthButton: TButton
+        Default = False
+        OnClick = AuthFrame1AuthButtonClick
+      end
+    end
+  end
+  inline SelfUserFrame1: TSelfUserFrame
+    Align = Client
+    Size.Width = 607.000000000000000000
+    Size.Height = 509.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    inherited Button1: TButton
+      Position.Y = 468.000000000000000000
+      Size.Width = 607.000000000000000000
+    end
+    inherited Panel1: TPanel
+      Size.Width = 607.000000000000000000
+      Size.Height = 468.000000000000000000
+      inherited GridPanelLayout1: TGridPanelLayout
+        Size.Width = 607.000000000000000000
+        ControlCollection = <
+          item
+            Column = 0
+            Control = SelfUserFrame1.Image1
+            Row = 0
+            RowSpan = 2
+          end
+          item
+            Column = 1
+            Control = SelfUserFrame1.Text1
+            Row = 0
+          end
+          item
+            Column = 1
+            Control = SelfUserFrame1.Text2
+            Row = 1
+          end>
+        inherited Image1: TImage
+          Size.Width = 303.500000000000000000
+        end
+        inherited Text1: TText
+          Size.Width = 303.500000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+        inherited Text2: TText
+          Size.Width = 303.500000000000000000
+        end
+      end
+      inherited ListView1: TListView
+        OnUpdateObjects = SelfUserFrame1ListView1UpdateObjects
+        Size.Width = 607.000000000000000000
+        Size.Height = 347.000000000000000000
+        CanSwipeDelete = False
+        OnItemClick = SelfUserFrame1ListView1ItemClick
+      end
+    end
+  end
+  inline TaskFrame1: TTaskFrame
+    Align = Client
+    Size.Width = 607.000000000000000000
+    Size.Height = 509.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    inherited Button1: TButton
+      Position.Y = 468.000000000000000000
+      Size.Width = 607.000000000000000000
+    end
+    inherited Panel1: TPanel
+      Size.Width = 607.000000000000000000
+      Size.Height = 468.000000000000000000
+      inherited VertScrollBox1: TVertScrollBox
+        Size.Width = 607.000000000000000000
+        Size.Height = 468.000000000000000000
+        Viewport.Width = 607.000000000000000000
+        Viewport.Height = 468.000000000000000000
+        inherited GridPanelLayout1: TGridPanelLayout
+          Size.Width = 602.000000000000000000
+          ControlCollection = <
+            item
+              Column = 0
+              Control = TaskFrame1.Text1
+              Row = 0
+            end
+            item
+              Column = 1
+              Control = TaskFrame1.Edit1
+              Row = 0
+            end
+            item
+              Column = 0
+              Control = TaskFrame1.Text2
+              Row = 1
+            end
+            item
+              Column = 1
+              Control = TaskFrame1.ComboBox1
+              Row = 1
+            end
+            item
+              Column = 0
+              Control = TaskFrame1.Text3
+              Row = 2
+            end
+            item
+              Column = 1
+              Control = TaskFrame1.ComboBox2
+              Row = 2
+            end
+            item
+              Column = 0
+              Control = TaskFrame1.Text4
+              Row = 3
+            end
+            item
+              Column = 0
+              Control = TaskFrame1.Text5
+              Row = 4
+            end
+            item
+              Column = 1
+              Control = TaskFrame1.ComboBox3
+              Row = 4
+            end
+            item
+              Column = 0
+              Control = TaskFrame1.Text6
+              Row = 5
+            end
+            item
+              Column = 1
+              Control = TaskFrame1.GridPanelLayout2
+              Row = 3
+            end
+            item
+              Column = 1
+              Control = TaskFrame1.GridPanelLayout3
+              Row = 5
+            end>
+          inherited Text1: TText
+            Size.Width = 150.500106811523400000
+          end
+          inherited Edit1: TEdit
+            Position.X = 150.500106811523400000
+            Position.Y = 16.000000000000000000
+            Size.Width = 451.499877929687500000
+            Size.Height = 32.000000000000000000
+          end
+          inherited Text2: TText
+            Size.Width = 150.500106811523400000
+          end
+          inherited ComboBox1: TComboBox
+            Position.X = 150.500106811523400000
+            Position.Y = 81.500000000000000000
+            Size.Width = 451.499877929687500000
+            Size.Height = 32.000000000000000000
+          end
+          inherited Text3: TText
+            Size.Width = 150.500106811523400000
+          end
+          inherited ComboBox2: TComboBox
+            Position.X = 150.500106811523400000
+            Position.Y = 147.000000000000000000
+            Size.Width = 451.499877929687500000
+            Size.Height = 32.000000000000000000
+          end
+          inherited Text4: TText
+            Size.Width = 150.500106811523400000
+          end
+          inherited Text5: TText
+            Size.Width = 150.500106811523400000
+          end
+          inherited ComboBox3: TComboBox
+            Position.X = 150.500106811523400000
+            Position.Y = 278.000000000000000000
+            Size.Width = 451.499877929687500000
+            Size.Height = 32.000000000000000000
+          end
+          inherited Text6: TText
+            Size.Width = 150.500106811523400000
+          end
+          inherited GridPanelLayout2: TGridPanelLayout
+            Size.Width = 451.499877929687500000
+            ControlCollection = <
+              item
+                Column = 0
+                Control = TaskFrame1.DateEdit1
+                Row = 0
+              end
+              item
+                Column = 1
+                Control = TaskFrame1.TimeEdit1
+                Row = 0
+              end>
+            inherited DateEdit1: TDateEdit
+              Position.Y = 16.000000000000000000
+              Size.Width = 225.749938964843800000
+              Size.Height = 32.000000000000000000
+            end
+            inherited TimeEdit1: TTimeEdit
+              Position.X = 225.749938964843800000
+              Position.Y = 16.000000000000000000
+              Size.Width = 225.749938964843800000
+              Size.Height = 32.000000000000000000
+            end
+          end
+          inherited GridPanelLayout3: TGridPanelLayout
+            Size.Width = 451.499877929687500000
+            ControlCollection = <
+              item
+                Column = 0
+                Control = TaskFrame1.ComboBox4
+                Row = 0
+              end
+              item
+                Column = 1
+                Control = TaskFrame1.CheckBox1
+                Row = 0
+              end>
+            inherited ComboBox4: TComboBox
+              Position.Y = 16.000000000000000000
+              Size.Width = 225.749938964843800000
+              Size.Height = 32.000000000000000000
+            end
+            inherited CheckBox1: TCheckBox
+              Position.X = 225.749938964843800000
+              Size.Width = 225.749938964843800000
+            end
+          end
+        end
+        inherited Memo1: TMemo
+          Size.Width = 602.000000000000000000
+          Viewport.Width = 602.000000000000000000
+          Viewport.Height = 500.000000000000000000
+        end
+        inherited Button2: TButton
+          Size.Width = 602.000000000000000000
+          OnClick = TaskFrame1Button2Click
+        end
+        inherited Button3: TButton
+          Size.Width = 602.000000000000000000
+          OnClick = TaskFrame1Button3Click
+        end
+        inherited Button4: TButton
+          Size.Width = 602.000000000000000000
+          OnClick = TaskFrame1Button4Click
+        end
+        inherited Button5: TButton
+          Size.Width = 602.000000000000000000
+          OnClick = TaskFrame1Button5Click
+        end
+      end
+    end
+  end
+end
